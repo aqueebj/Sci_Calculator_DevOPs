@@ -11,14 +11,16 @@ public class Main {
         System.out.println("##########################################\n");
         do {
             System.out.println("#### Options ####");
-            System.out.println("1 for Factorial\n2 for Natural Log\n3 for Power\n4 for Square Root\n Press any other key to exit\n");
+            System.out.println("1 for Factorial\n2 for Natural Log\n3 for Power\n4 for Square Root\n5 for exit\n");
             System.out.print("Please Enter your choice: ");
             choice = scan.nextInt();
-            if (choice > 4 || choice <1) {
+            while (choice > 5 || choice <1) {
+                System.out.println("Invalid choice, Try Again...\n");
+                System.out.print("Please Enter your choice: ");
                 flag = 1;
-                System.out.println("Invalid choice, Exiting...\n");
+
             }
-            else if (flag != 1){
+             if (flag != 1){
 
                 switch(choice) {
                     case 1:Factorial factorial=new Factorial();
@@ -32,6 +34,9 @@ public class Main {
                             break;
                     case 4:Sqroot sqroot=new Sqroot();
                             sqroot.Sroot();
+                            break;
+                    case 5:System.out.println("Thank You, Exiting...\n");
+                            flag=1;
                             break;
                 }
             }

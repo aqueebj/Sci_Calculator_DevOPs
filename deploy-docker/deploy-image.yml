@@ -4,5 +4,5 @@
   tasks:
     - name: Pull junit devops image
       docker_image:
-        name: aqueebj/Sci-Calculator
+        name: aqueebj/sci-calculator
         source: pull

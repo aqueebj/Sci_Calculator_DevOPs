@@ -12,4 +12,11 @@ public class Factorial {
         }
         System.out.println("Factorial of "+number+" is: "+fact);
     }
+    public int Fact(int a){
+        int fact=1,i;
+        for(i=1;i<=a;i++){
+            fact=fact*i;
+        }
+        return fact;
+    }
 }

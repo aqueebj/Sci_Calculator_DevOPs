@@ -1,5 +1,5 @@
 package org.iiitb.Calculator;
-
+import java.lang.Math;
 import java.util.Scanner;
 
 public class Power {
@@ -10,5 +10,8 @@ public class Power {
         a = scan.nextInt();
         b = scan.nextInt();
         System.out.println(a+" power "+b+" is: "+Math.pow(a,b));
+    }
+    public double power(double a, double b){
+        return Math.pow(a,b);
     }
 }

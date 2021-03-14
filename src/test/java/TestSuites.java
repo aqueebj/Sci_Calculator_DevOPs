@@ -3,7 +3,7 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-
+    CalculatorTest.class
 })
 public class TestSuites {
     // the class remains empty

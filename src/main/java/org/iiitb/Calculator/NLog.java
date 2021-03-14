@@ -10,4 +10,8 @@ public class NLog {
         N = scan.nextDouble();
         System.out.println("Natural Log of "+N+" is: "+Math.log(N));
     }
+    public double Log(double a){
+
+        return Math.log(a);
+    }
 }
