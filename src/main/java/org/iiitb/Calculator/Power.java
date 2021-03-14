@@ -6,7 +6,8 @@ public class Power {
     public void power(){
         Scanner scan = new Scanner(System.in);
         int a,b;
-        System.out.print("Enter the number a and b (as a power b):");
+        System.out.print("Welcome to Power Calculation\n");
+        System.out.print("Please Enter the number a and b (as a power b):");
         a = scan.nextInt();
         b = scan.nextInt();
         System.out.println(a+" power "+b+" is: "+Math.pow(a,b));

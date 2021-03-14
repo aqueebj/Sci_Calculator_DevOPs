@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String [] args){
-        int choice, flag=0;
+        int choice;
         Scanner scan = new Scanner(System.in);
         System.out.println("##########################################");
         System.out.println("#### Welcome to Scientific Calculator ####");
@@ -17,12 +17,11 @@ public class Main {
             while (choice > 5 || choice <1) {
                 System.out.println("Invalid choice, Try Again...\n");
                 System.out.print("Please Enter your choice: ");
-                flag = 1;
+                choice = scan.nextInt();
+
 
             }
-             if (flag != 1){
-
-                switch(choice) {
+            switch(choice) {
                     case 1:Factorial factorial=new Factorial();
                             factorial.Fact();
                             break;
@@ -36,12 +35,11 @@ public class Main {
                             sqroot.Sroot();
                             break;
                     case 5:System.out.println("Thank You, Exiting...\n");
-                            flag=1;
                             break;
-                }
             }
+
             System.out.println("\n");
-        }while(flag==0);
+        }while(choice!=5);
     }
 
 }

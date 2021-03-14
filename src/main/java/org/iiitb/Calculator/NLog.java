@@ -6,7 +6,8 @@ public class NLog {
     public void Log(){
         Scanner scan = new Scanner(System.in);
         double N;
-        System.out.print("Enter the number:");
+        System.out.print("Welcome to Natural Log Calculation\n");
+        System.out.print("Please Enter your number:");
         N = scan.nextDouble();
         System.out.println("Natural Log of "+N+" is: "+Math.log(N));
     }
