@@ -1,2 +1,24 @@
 2021-03-15 09:38:52.195 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [FACTORIAL] - 6
 2021-03-15 09:38:52.233 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [RESULT - FACTORIAL] - 720
+2021-03-15 10:47:19.802 [NLog.java] INFO  org.iiitb.Calculator.NLog - [NLog] - 4.0
+2021-03-15 10:47:19.823 [NLog.java] INFO  org.iiitb.Calculator.NLog - [RESULT - NLog] - 1.3862943611198906
+2021-03-15 10:47:47.752 [Power.java] INFO  org.iiitb.Calculator.Power - [POWER] - 12.0, 2.0
+2021-03-15 10:47:47.755 [Power.java] INFO  org.iiitb.Calculator.Power - [RESULT - FACTORIAL] - 144.0
+2021-03-15 10:48:06.704 [Sqroot.java] INFO  org.iiitb.Calculator.Sqroot - [FACTORIAL] - 576.0
+2021-03-15 10:48:06.705 [Sqroot.java] INFO  org.iiitb.Calculator.Sqroot - [RESULT - FACTORIAL] - 24.0
+2021-03-15 10:48:15.033 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [FACTORIAL] - 2
+2021-03-15 10:48:15.035 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [RESULT - FACTORIAL] - 2
+2021-03-15 10:48:18.698 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [FACTORIAL] - 3
+2021-03-15 10:48:18.700 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [RESULT - FACTORIAL] - 6
+2021-03-15 10:48:23.958 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [FACTORIAL] - 4
+2021-03-15 10:48:23.960 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [RESULT - FACTORIAL] - 24
+2021-03-15 10:48:38.110 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [FACTORIAL] - 22
+2021-03-15 10:48:38.112 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [RESULT - FACTORIAL] - -522715136
+2021-03-15 10:48:57.173 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [FACTORIAL] - 100
+2021-03-15 10:48:57.174 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [RESULT - FACTORIAL] - 0
+2021-03-15 10:49:12.557 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [FACTORIAL] - 10
+2021-03-15 10:49:12.558 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [RESULT - FACTORIAL] - 3628800
+2021-03-15 10:52:17.322 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [FACTORIAL] - 12
+2021-03-15 10:52:17.338 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [RESULT - FACTORIAL] - 479001600
+2021-03-15 10:52:27.517 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [FACTORIAL] - 100
+2021-03-15 10:52:27.519 [Factorial.java] INFO  org.iiitb.Calculator.Factorial - [RESULT - FACTORIAL] - 0

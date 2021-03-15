@@ -8,7 +8,8 @@ public class Factorial {
     private static final Logger flogger = LogManager.getLogger(Factorial.class);
     public void Fact(){
         Scanner scan = new Scanner(System.in);
-        int i,number,fact=1;
+        int i,number;
+        long fact=1;
         System.out.print("Welcome to Factorial Calculation\n");
         System.out.print("Please Enter your number:");
         number = scan.nextInt();
