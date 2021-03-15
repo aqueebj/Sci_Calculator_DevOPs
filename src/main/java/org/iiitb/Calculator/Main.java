@@ -1,8 +1,10 @@
 package org.iiitb.Calculator;
 
 import java.util.Scanner;
+import java.util.InputMismatchException;
 
 public class Main {
+
     public static void main(String [] args){
         int choice;
         Scanner scan = new Scanner(System.in);
@@ -13,13 +15,19 @@ public class Main {
             System.out.println("#### Options ####");
             System.out.println("1 for Factorial\n2 for Natural Log\n3 for Power\n4 for Square Root\n5 for exit\n");
             System.out.print("Please Enter your choice: ");
-            choice = scan.nextInt();
-            while (choice > 5 || choice <1) {
-                System.out.println("Invalid choice, Try Again...\n");
-                System.out.print("Please Enter your choice: ");
+            try {
                 choice = scan.nextInt();
+                while (choice > 5 || choice < 1) {
+                    System.out.println("Invalid choice, Try Again...\n");
+                    System.out.print("Please Enter your choice: ");
+                    choice = scan.nextInt();
 
 
+                }
+            }
+            catch (InputMismatchException error) {
+                System.out.println("Error: " + error.toString());
+                return;
             }
             switch(choice) {
                     case 1:Factorial factorial=new Factorial();
