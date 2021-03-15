@@ -16,3 +16,21 @@
 15/Mar/2021:14:17:35 365 [Power.java] [INFO] org.iiitb.Calculator.Power [RESULT - POWER] - 81.0
 15/Mar/2021:14:17:43 801 [Sqroot.java] [INFO] org.iiitb.Calculator.Sqroot [SQROOT] - 625.0
 15/Mar/2021:14:17:43 804 [Sqroot.java] [INFO] org.iiitb.Calculator.Sqroot [RESULT - SQROOT] - 25.0
+15/Mar/2021:14:25:19 379 [NLog.java] [INFO] org.iiitb.Calculator.NLog [NLog] - 2.0
+15/Mar/2021:14:25:19 386 [NLog.java] [INFO] org.iiitb.Calculator.NLog [RESULT - NLog] - 0.6931471805599453
+15/Mar/2021:14:25:27 939 [Power.java] [INFO] org.iiitb.Calculator.Power [POWER] - 4.0, 2.0
+15/Mar/2021:14:25:27 942 [Power.java] [INFO] org.iiitb.Calculator.Power [RESULT - POWER] - 16.0
+15/Mar/2021:14:25:36 862 [Sqroot.java] [INFO] org.iiitb.Calculator.Sqroot [SQROOT] - 64.0
+15/Mar/2021:14:25:36 863 [Sqroot.java] [INFO] org.iiitb.Calculator.Sqroot [RESULT - SQROOT] - 8.0
+15/Mar/2021:17:59:50 547 [Sqroot.java] [INFO] org.iiitb.Calculator.Sqroot [SQROOT] - 2048.0
+15/Mar/2021:17:59:50 569 [Sqroot.java] [INFO] org.iiitb.Calculator.Sqroot [RESULT - SQROOT] - 45.254833995939045
+15/Mar/2021:18:01:02 894 [NLog.java] [INFO] org.iiitb.Calculator.NLog [NLog] - 8.0
+15/Mar/2021:18:01:02 896 [NLog.java] [INFO] org.iiitb.Calculator.NLog [RESULT - NLog] - 2.0794415416798357
+15/Mar/2021:19:52:49 010 [Factorial.java] [INFO] org.iiitb.Calculator.Factorial [FACTORIAL] - 3
+15/Mar/2021:19:52:49 101 [Factorial.java] [INFO] org.iiitb.Calculator.Factorial [RESULT - FACTORIAL] - 6
+15/Mar/2021:20:06:05 333 [Factorial.java] [INFO] org.iiitb.Calculator.Factorial [FACTORIAL] - 2
+15/Mar/2021:20:06:05 340 [Factorial.java] [INFO] org.iiitb.Calculator.Factorial [RESULT - FACTORIAL] - 2
+15/Mar/2021:20:06:10 441 [Power.java] [INFO] org.iiitb.Calculator.Power [POWER] - 2.0, 5.0
+15/Mar/2021:20:06:10 442 [Power.java] [INFO] org.iiitb.Calculator.Power [RESULT - POWER] - 32.0
+15/Mar/2021:20:06:19 546 [Power.java] [INFO] org.iiitb.Calculator.Power [POWER] - 4.0, 3.0
+15/Mar/2021:20:06:19 548 [Power.java] [INFO] org.iiitb.Calculator.Power [RESULT - POWER] - 64.0
