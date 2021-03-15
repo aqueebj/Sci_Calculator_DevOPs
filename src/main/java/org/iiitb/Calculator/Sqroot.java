@@ -12,9 +12,9 @@ public class Sqroot {
         System.out.print("Welcome to Square Root Calculation\n");
         System.out.print("Please Enter your number:");
         N = scan.nextDouble();
-        slogger.info("[FACTORIAL] - " + N);
+        slogger.info("[SQROOT] - " + N);
         S=Math.sqrt(N);
-        slogger.info("[RESULT - FACTORIAL] - " + S);
+        slogger.info("[RESULT - SQROOT] - " + S);
         System.out.println("Square root of "+N+" is: "+S);
     }
     public double Sroot(double N){

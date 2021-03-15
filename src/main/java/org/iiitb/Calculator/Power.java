@@ -16,7 +16,7 @@ public class Power {
         b = scan.nextDouble();
         plogger.info("[POWER] - " + a+", "+b);
         p=Math.pow(a,b);
-        plogger.info("[RESULT - FACTORIAL] - " + p);
+        plogger.info("[RESULT - POWER] - " + p);
         System.out.println(a+" power "+b+" is: "+p);
     }
     public double power(double a, double b){
